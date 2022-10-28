@@ -1,0 +1,17 @@
+.button_box > button {
+  font-size: inherit;
+  margin: 5px;
+  cursor: pointer;
+  transition: 0.2s linear;
+  box-shadow: 0 5px 0 #3c93d5;
+  border-radius: 4px;
+}
+
+.button_box > button:hover {
+  box-shadow: 0 0 0 2px white, 0 0 0 4px #3a2f28;
+}
+.button_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
